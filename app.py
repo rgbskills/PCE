@@ -8,7 +8,7 @@ import pyperclip
 # Adjust this limit if necessary, or set it to None to remove the limit
 Image.MAX_IMAGE_PIXELS = None
 
-def extract_primary_colors(image_path, num_colors=3):
+def extract_primary_colors(image_path, num_colors=5):
     # Load image and convert to RGB
     image = Image.open(image_path).convert('RGB')
     image = image.resize((150, 150))  # Resize for faster processing
