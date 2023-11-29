@@ -1,8 +1,9 @@
 import tkinter as tk
-from tkinter import filedialog
-from PIL import Image, ImageTk, ImageFilter
+from tkinter import filedialog, messagebox
+from PIL import Image, ImageTk
 import numpy as np
 from sklearn.cluster import KMeans
+import pyperclip
 
 # Adjust this limit if necessary, or set it to None to remove the limit
 Image.MAX_IMAGE_PIXELS = None
