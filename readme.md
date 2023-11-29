@@ -15,6 +15,11 @@ To run this application, you need Python installed on your system along with sev
 pip install Pillow numpy scikit-learn pyperclip
 ```
 
+## Running the app
+```bash
+python app.py
+```
+
 ## Usage
 Run the application.
 Click on 'Open Image' to load an image file.
